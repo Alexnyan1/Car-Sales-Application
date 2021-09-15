@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JObject" Version="1.0.0" />
+    <PackageReference Include="Microsoft.NETCore.App" Version="2.2.8" />
+    <PackageReference Include="Microsoft.TestPlatform.TestHost" Version="16.0.1" />
+    <PackageReference Include="PayStack.Net" Version="0.7.7" />
+    <PackageReference Include="Paystack.Net.SDK" Version="1.3.7" />
+    <PackageReference Include="RestSharp" Version="106.11.8-alpha.0.12" />
+    <PackageReference Include="runtime.any.System.Reflection" Version="4.3.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0-preview.2.21154.6" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+    <PackageReference Include="System.Reflection" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Car service\Car service.csproj" />
+  </ItemGroup>
+
+</Project>
